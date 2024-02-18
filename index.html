@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8142d0aec.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <div class="logo"><h2><span>A</span>mandi.</h2></div>
+                
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#Mskills">Skills</a></li>
+                    <li> <a href="#Portfolio">projects</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Undergraduate</p>
+                <h1>Hi, I'm <span>Amandi De Alwis</span><br> from Sri Lanka
+                    </h1>
+                    <div class="home-sci">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-researchgate"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!---------------ABOUT------------->
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src ="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a confident and organized university
+                        undergraduate, looking forward to new
+                        experiences in the learning process. I am willing to
+                        fulfill any given responsibility through hard work
+                        and dedication while expanding my knowledge to
+                        a greater extent. An energetic team worker, who
+                        aspires to become the best in the field of
+                        Information Technology.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('interests')">Interests</p>
+                            <p class="tab-links" onclick="opentab('extracurricular')">Extracurricular</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab " id="interests">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/ios apps</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="extracurricular">
+                            <ul>
+                                <li><span>2021-current</span><br>UX/UI Design Training at ET Institute</li>
+                                <li><span>2019-2021</span><br>Team Lead at startapp</li>
+                                <li><span>2017-2019</span><br>ux/ui design executive at coin digital ltd</li>
+                                <li><span>2016-2017</span><br>internship at ekart ecommerce</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>ux/ui Design training at ET institute</li>
+                                <li><span>2016</span><br>MBA from MIT bangalore</li>
+                                <li><span>2014</span><br>bba from ISM bangalore</li>
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------------SERVICES------------------------------------------------>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>  
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>hjjjjjjjjjjjjjjjjjjbeehfhf bjfjjjjjjjjjjjjjj jnjuryrbfrf bddddddddbbcbcbjnd
+                    hbfbjhejjjjjjjueeeeeeeeeeeeebbbbcbcbjjkk </p>
+                    <a href="#">Learn more</a>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>hjjjjjjjjjjjjjjjjjjbeehfhf bjfjjjjjjjjjjjjjj jnjuryrbfrf bddddddddbbcbcbjnd
+                    hbfbjhejjjjjjjueeeeeeeeeeeeebbbbcbcbjjkk </p>
+                    <a href="#">Learn more</a>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>hjjjjjjjjjjjjjjjjjjbeehfhf bjfjjjjjjjjjjjjjj jnjuryrbfrf bddddddddbbcbcbjnd
+                    hbfbjhejjjjjjjueeeeeeeeeeeeebbbbcbcbjjkk </p>
+                    <a href="#">Learn more</a>
+                
+            </div>
+            <div>
+                <i class="fa-regular fa-newspaper"></i>
+                <h2>Research Writing</h2>
+                <p>hjjjjjjjjjjjjjjjjjjbeehfhf bjfjjjjjjjjjjjjjj jnjuryrbfrf bddddddddbbcbcbjnd
+                    hbfbjhejjjjjjjueeeeeeeeeeeeebbbbcbcbjjkk </p>
+                    <a href="#">Learn more</a>
+                
+            </div>
+            <div>
+                <i class="fa-regular fa-pen-to-square"></i>
+                <h2>Content Writing</h2>
+                <p>hjjjjjjjjjjjjjjjjjjbeehfhf bjfjjjjjjjjjjjjjj jnjuryrbfrf bddddddddbbcbcbjnd
+                    hbfbjhejjjjjjjueeeeeeeeeeeeebbbbcbcbjjkk </p>
+                    <a href="#">Learn more</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------MY SKILLS------------------------------------------------>
+
+
+
+<div id="Mskills">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+    <h1 class="sub-title">My Skills</h1>
+    <h1 class="heading1">Technical Skills</h1>
+    <div class="Technical-bars">
+           <div class="bar"><i style="color: #c95d2e;" class="fa-brands fa-html5"></i>
+            <div class="info">
+                <span class="S1">HTML</span>
+            </div>
+            <div class="progress-line.html">
+                <span></span>
+            </div>
+        </div>
+            <div class="bar"><i style="color: #147bbc;" class="fa-brands fa-css3-alt"></i>
+                <div class="info">
+                    <span class="S1">CSS</span>
+                </div>
+                <div class="progress-line.css">
+                    <span></span>
+                </div> 
+            </div>
+            <div class="bar"><i style="color: #b0bc1e;" class="fa-brands fa-js"></i>
+                <div class="info">
+                  <span class="S1">Javascript</span>
+                </div>
+                <div class="progress-line.javascript">
+                    <span></span>
+                </div> 
+            </div>
+            <div class="bar"><i style="color: #c32ec9;" class="fa-brands fa-react"></i>
+                <div class="info">
+                    <span class="S1">React</span>
+                </div>
+                <div class="progress-line.react">
+                    <span></span>
+                </div> 
+            </div>
+            <div class="bar"><i style="color: #0c8722;" class="fa-brands fa-android"></i>
+                <div class="info">
+                    <span class="S1">Flutter</span>
+                </div>
+                <div class="progress-line.flutter">
+                    <span></span>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+            <div class="row">
+                <div class="about-col-3">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+            <svg x="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">creativity</div>
+            </div>
+            <div class="radial-bars">
+                <svg x="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">65%</div>
+                <div class="text">Communication</div>
+            </div>
+            <div class="radial-bars">
+                <svg x="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">75%</div>
+                <div class="text">problem solving</div>
+            </div>
+            <div class="radial-bars">
+                <svg x="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">85%</div>
+                <div class="text">Team work</div>
+
+                </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+</div>
+                <!----------------------Portfolio---------------------->
+                
+      <div id="Portfolio">
+         <div class="container">
+             <h1 class="sub-title">My Work</h1>
+             <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to talented people around the world.download it from playstore</p>
+                         <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to talented people around the world.download it from playstore</p>
+                         <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>online shopping App</h3>
+                        <p>The app connects you to talented people around the world.download it from playstore</p>
+                         <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+               
+             </div>
+             <a href="#" class="btn"> See More</a>
+    
+         </div>
+     </div>
+     
+             
+
+ <!----------------------contact---------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>amandidilrangi@gmail.com</p> 
+                <p><i class="fas fa-phone-square-alt"></i>+94761270229</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/amandi-de-alwis-796105243"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-researchgate"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a> 
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>   
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"> </span>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){  //to hide the about underlined line and the details of it when we clicked another tab
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }  
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        } 
+          event.currentTarget.classList.add("active-link"); //shows the hover line 
+          document.getElementById(tabname).classList.add("active-tab");
+    }
+
+   </script> 
+
+
+<script>
+ 
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyKYtykx2W8Uk8cSgIDjeK8GOcMgSqF0X0N-lObLswRzE0jXptP3t_zbP66_QvVNTyUOQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+
+
+
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
